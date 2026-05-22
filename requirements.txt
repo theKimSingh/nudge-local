@@ -1,0 +1,4 @@
+openai-whisper
+google-generativeai
+ics
+pydub
