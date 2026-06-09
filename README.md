@@ -3,14 +3,14 @@ afm --port 9999
 
 ```
 {
-  input: 'Doctor appointment tomorrow at 9am.',
-  output: {
-    id: null,
-    summary: 'Doctor appointment',
-    date: '2026-05-21',
-    time: '09:00',
-    duration: 60,
-    repeats: null
+  "input": "Let's do a fast 10 minute check-in tomorrow at 8:45am.",
+  "output": {
+    "id": 75,
+    "title": "Check-in",
+    "date": "2026-05-21",
+    "start_time": "08:45",
+    "end_time": "08:55",
+    "repeats": null
   }
-}
+},
 ```
