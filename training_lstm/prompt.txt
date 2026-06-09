@@ -1,0 +1,31 @@
+# SYSTEM NOTATION & LIMITATION:
+# Prompts are reactive and maintain tracking using a unique 'id'.
+# Exactly one event is changed/added/modified per prompt.
+# Output format is always a JSON list containing the single event object that was affected or created.
+
+---
+# Scenario 1: Tracking and shifting multiple events with IDs (Your requested chain)
+
+PROMPT: Book a Team sync for this Friday (June 5, 2026) at 3:00 PM for an hour.
+OUTPUT: [{"id": 1, "summary":"Team sync","begin":null,"date":"2026-06-05","time":"15:00","duration":60,"repeats":null}]
+
+PROMPT: Move that event (ID 1) to Thursday instead.
+OUTPUT: [{"id": 1, "summary":"Team sync","begin":null,"date":"2026-06-04","time":"15:00","duration":60,"repeats":null}]
+
+PROMPT: Now, let's put a new event on Friday at 1:00 PM for a 45-minute Lunch with Sarah.
+OUTPUT: [{"id": 2, "summary":"Lunch with Sarah","begin":null,"date":"2026-06-05","time":"13:00","duration":45,"repeats":null}]
+
+---
+# Scenario 2: Interacting with multiple concurrent events using explicit IDs
+
+PROMPT: Schedule a 60-minute Marketing Sync for next Monday at 10 AM.
+OUTPUT: [{"id": 3, "summary":"Marketing Sync","begin":null,"date":"2026-06-08","time":"10:00","duration":60,"repeats":null}]
+
+PROMPT: Add a second meeting on Monday at 2 PM called Design Review for 90 minutes.
+OUTPUT: [{"id": 4, "summary":"Design Review","begin":null,"date":"2026-06-08","time":"14:00","duration":90,"repeats":null}]
+
+PROMPT: Actually, can you push the first meeting (ID 3) back to 11:00 AM?
+OUTPUT: [{"id": 3, "summary":"Marketing Sync","begin":null,"date":"2026-06-08","time":"11:00","duration":60,"repeats":null}]
+
+PROMPT: Change the duration of the design meeting (ID 4) to just one hour.
+OUTPUT: [{"id": 4, "summary":"Design Review","begin":null,"date":"2026-06-08","time":"14:00","duration":60,"repeats":null}]
