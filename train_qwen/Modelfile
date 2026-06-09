@@ -1,0 +1,8 @@
+FROM qwen3.5:0.8b
+
+
+ADAPTER ./my_lora_adapter
+
+# Lower temperature forces deterministic, non-creative, rule-following tokens
+PARAMETER temperature 0.0
+PARAMETER top_p 0.1
