@@ -1,0 +1,877 @@
+[
+
+  {
+    "input": "Marketing focus group next Wednesday at 3pm for 75 minutes.",
+    "output": {
+      "id": 73,
+      "title": "Marketing focus group",
+      "date": "2026-05-27",
+      "start_time": "15:00",
+      "end_time": "16:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Pay rent every month on the 1st at 8am.",
+    "output": {
+      "id": 74,
+      "title": "Pay rent",
+      "date": "2026-06-01",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "repeats": "monthly"
+    }
+  },
+  {
+    "input": "Let's do a fast 10 minute check-in tomorrow at 8:45am.",
+    "output": {
+      "id": 75,
+      "title": "Check-in",
+      "date": "2026-05-21",
+      "start_time": "08:45",
+      "end_time": "08:55",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Annual checkup next Thursday at 10:15 am.",
+    "output": {
+      "id": 68,
+      "title": "Annual checkup",
+      "date": "2026-05-28",
+      "start_time": "10:15",
+      "end_time": "11:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Quarterly board meeting next Friday from 9 am to 12 pm.",
+    "output": {
+      "id": 62,
+      "title": "Quarterly board meeting",
+      "date": "2026-05-29",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "HR orientation all day next Monday starting at 12am.",
+    "output": {
+      "id": 56,
+      "title": "HR orientation",
+      "date": "2026-05-25",
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Gym session every Monday, Wednesday, and Friday at 6:30am.",
+    "output": {
+      "id": 57,
+      "title": "Gym session",
+      "date": "2026-05-22",
+      "start_time": "06:30",
+      "end_time": "07:30",
+      "repeats": "weekdays"
+    }
+  },
+  {
+    "input": "Piano lesson next Monday at 4:30 for 45 min.",
+    "output": {
+      "id": 47,
+      "title": "Piano lesson",
+      "date": "2026-05-25",
+      "start_time": "16:30",
+      "end_time": "17:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Design workshop next Wednesday at 2pm.",
+    "output": {
+      "id": 33,
+      "title": "Design workshop",
+      "date": "2026-05-27",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Budget review next Thursday afternoon at 3.",
+    "output": {
+      "id": 42,
+      "title": "Budget review",
+      "date": "2026-05-28",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "meeting tomorrow at 3pm",
+    "output": {
+      "id": 13,
+      "title": "Meeting",
+      "date": "2026-05-21",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Meet the real estate agent at the property site tomorrow at 2pm for an hour and 45 minutes.",
+    "output": {
+      "id": 81,
+      "title": "Meet the real estate agent",
+      "date": "2026-05-21",
+      "start_time": "14:00",
+      "end_time": "15:45",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Doctor appointment tomorrow at 9am.",
+    "output": {
+      "id": 1,
+      "title": "Doctor appointment",
+      "date": "2026-05-21",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Lunch with Sarah Friday at noon.",
+    "output": {
+      "id": 2,
+      "title": "Lunch with Sarah",
+      "date": "2026-05-22",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Team sync tomorrow at 3pm and dentist appointment Friday at 10.",
+    "output": [
+      {
+        "id": 3,
+        "title": "Team sync",
+        "date": "2026-05-21",
+        "start_time": "15:00",
+        "end_time": "16:00",
+        "repeats": null
+      },
+      {
+        "id": 4,
+        "title": "Dentist appointment",
+        "date": "2026-05-22",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Meeting tomorrow at 4pm.",
+    "output": {
+      "id": 5,
+      "title": "Meeting",
+      "date": "2026-05-21",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Call John tomorrow at noon.",
+    "output": {
+      "id": 6,
+      "title": "Call John",
+      "date": "2026-05-21",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Meeting at 7.",
+    "output": {
+      "id": 8,
+      "title": "Meeting",
+      "date": "2026-05-20",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Call Alex at 3pm.",
+    "output": {
+      "id": 9,
+      "title": "Call Alex",
+      "date": "2026-05-20",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Dinner at Mom's tomorrow at 7pm.",
+    "output": {
+      "id": 11,
+      "title": "Dinner at Mom's",
+      "date": "2026-05-21",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "tmrw gym @ 8",
+    "output": {
+      "id": 12,
+      "title": "Gym",
+      "date": "2026-05-21",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Team sync every Monday at 10.",
+    "output": {
+      "id": 14,
+      "title": "Team sync",
+      "date": "2026-05-25",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "repeats": "weekly"
+    }
+  },
+  {
+    "input": "Meeting at 2 PST.",
+    "output": {
+      "id": 15,
+      "title": "Meeting",
+      "date": "2026-05-20",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Tomorrow evening at 6.",
+    "output": {
+      "id": 16,
+      "title": "Event",
+      "date": "2026-05-21",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Hey everyone, just a reminder that we are having the quarterly product strategy meeting next Thursday at 2pm in Conference Room B. Please bring the updated roadmap documents.",
+    "output": {
+      "id": 17,
+      "title": "Quarterly product strategy meeting",
+      "date": "2026-05-28",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Let's meet tomorrow. Starbucks at 3 works for me.",
+    "output": {
+      "id": 18,
+      "title": "Meet at Starbucks",
+      "date": "2026-05-21",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "All-day event Friday starting at 12am.",
+    "output": {
+      "id": 19,
+      "title": "All-day event",
+      "date": "2026-05-22",
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Project review next Tuesday at 11am.",
+    "output": {
+      "id": 20,
+      "title": "Project review",
+      "date": "2026-05-26",
+      "start_time": "11:00",
+      "end_time": "12:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Coffee with Dave tomorrow at 8:30 for 45 minutes.",
+    "output": {
+      "id": 21,
+      "title": "Coffee with Dave",
+      "date": "2026-05-21",
+      "start_time": "08:30",
+      "end_time": "09:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Yoga class every weekday at 7am.",
+    "output": {
+      "id": 22,
+      "title": "Yoga class",
+      "date": "2026-05-20",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "repeats": "weekdays"
+    }
+  },
+  {
+    "input": "Code review at 1:30pm and 1-on-1 with manager at 4pm tomorrow.",
+    "output": [
+      {
+        "id": 23,
+        "title": "Code review",
+        "date": "2026-05-21",
+        "start_time": "13:30",
+        "end_time": "14:30",
+        "repeats": null
+      },
+      {
+        "id": 24,
+        "title": "1-on-1 with manager",
+        "date": "2026-05-21",
+        "start_time": "16:00",
+        "end_time": "17:00",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Dentist appointment next Monday morning at 9.",
+    "output": {
+      "id": 25,
+      "title": "Dentist appointment",
+      "date": "2026-05-25",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Call Grandma Friday evening at 6:30.",
+    "output": {
+      "id": 26,
+      "title": "Call Grandma",
+      "date": "2026-05-22",
+      "start_time": "18:30",
+      "end_time": "19:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Check emails daily at 8am.",
+    "output": {
+      "id": 27,
+      "title": "Check emails",
+      "date": "2026-05-20",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "repeats": "daily"
+    }
+  },
+  {
+    "input": "Flight leaves Saturday at 5am.",
+    "output": {
+      "id": 28,
+      "title": "Flight leaves",
+      "date": "2026-05-23",
+      "start_time": "05:00",
+      "end_time": "06:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Car service tomorrow morning at 9am.",
+    "output": {
+      "id": 29,
+      "title": "Car service",
+      "date": "2026-05-21",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Quick 15 min standup at noon.",
+    "output": {
+      "id": 30,
+      "title": "Standup",
+      "date": "2026-05-20",
+      "start_time": "12:00",
+      "end_time": "12:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Hey, don't forget the marketing sync Friday from 2pm to 3:30pm.",
+    "output": {
+      "id": 31,
+      "title": "Marketing sync",
+      "date": "2026-05-22",
+      "start_time": "14:00",
+      "end_time": "15:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "coffe wtih sam tomorrow at 10am",
+    "output": {
+      "id": 32,
+      "title": "Coffee with Sam",
+      "date": "2026-05-21",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Water plants every Sunday at 9am.",
+    "output": {
+      "id": 34,
+      "title": "Water plants",
+      "date": "2026-05-24",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": "weekly"
+    }
+  },
+  {
+    "input": "All-day hackathon tomorrow starting at 12am.",
+    "output": {
+      "id": 35,
+      "title": "Hackathon",
+      "date": "2026-05-21",
+      "start_time": "00:00",
+      "end_time": "23:59",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Therapy session tomorrow at 4pm for an hour and a half.",
+    "output": {
+      "id": 36,
+      "title": "Therapy session",
+      "date": "2026-05-21",
+      "start_time": "16:00",
+      "end_time": "17:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Interviewing candidates Friday at 11 and 1pm.",
+    "output": [
+      {
+        "id": 37,
+        "title": "Interviewing candidates",
+        "date": "2026-05-22",
+        "start_time": "11:00",
+        "end_time": "12:00",
+        "repeats": null
+      },
+      {
+        "id": 38,
+        "title": "Interviewing candidates",
+        "date": "2026-05-22",
+        "start_time": "13:00",
+        "end_time": "14:00",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Dad's bday dinner Saturday at 7.",
+    "output": {
+      "id": 39,
+      "title": "Dad's bday dinner",
+      "date": "2026-05-23",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Staff meeting at 10 EST.",
+    "output": {
+      "id": 40,
+      "title": "Staff meeting",
+      "date": "2026-05-20",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Go for a run tomorrow at 6:15 am.",
+    "output": {
+      "id": 41,
+      "title": "Go for a run",
+      "date": "2026-05-21",
+      "start_time": "06:15",
+      "end_time": "07:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Therapy every Tuesday at 5pm.",
+    "output": {
+      "id": 43,
+      "title": "Therapy",
+      "date": "2026-05-26",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "repeats": "weekly"
+    }
+  },
+  {
+    "input": "Drop off dry cleaning tomorrow at 5pm.",
+    "output": {
+      "id": 44,
+      "title": "Drop off dry cleaning",
+      "date": "2026-05-21",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Submit timesheet Friday by noon.",
+    "output": {
+      "id": 45,
+      "title": "Submit timesheet",
+      "date": "2026-05-22",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Walk the dog daily at 6pm.",
+    "output": {
+      "id": 46,
+      "title": "Walk the dog",
+      "date": "2026-05-20",
+      "start_time": "18:00",
+      "end_time": "19:00",
+      "repeats": "daily"
+    }
+  },
+  {
+    "input": "Brainstorming session tomorrow at 10 and client presentation at 2.",
+    "output": [
+      {
+        "id": 48,
+        "title": "Brainstorming session",
+        "date": "2026-05-21",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "repeats": null
+      },
+      {
+        "id": 49,
+        "title": "Client presentation",
+        "date": "2026-05-21",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Pick up kids from school every weekday at 3pm.",
+    "output": {
+      "id": 50,
+      "title": "Pick up kids from school",
+      "date": "2026-05-21",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": "weekdays"
+    }
+  },
+  {
+    "input": "Dinner date Friday at 8:15.",
+    "output": {
+      "id": 51,
+      "title": "Dinner date",
+      "date": "2026-05-22",
+      "start_time": "20:15",
+      "end_time": "21:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Trash pickup tomorrow at 6am.",
+    "output": {
+      "id": 52,
+      "title": "Trash pickup",
+      "date": "2026-05-21",
+      "start_time": "06:00",
+      "end_time": "07:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Movie night with friends tonight at 8.",
+    "output": {
+      "id": 53,
+      "title": "Movie night with friends",
+      "date": "2026-05-20",
+      "start_time": "20:00",
+      "end_time": "21:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Dentist appointment day after tomorrow at 2:30pm.",
+    "output": {
+      "id": 54,
+      "title": "Dentist appointment",
+      "date": "2026-05-22",
+      "start_time": "14:30",
+      "end_time": "15:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Quick sync w/ product team tomorrow at 11 for half an hour.",
+    "output": {
+      "id": 55,
+      "title": "Sync w/ product team",
+      "date": "2026-05-21",
+      "start_time": "11:00",
+      "end_time": "11:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Meet me at the office tomorrow. I have a client sync at 10am and a team lunch at 12:30.",
+    "output": [
+      {
+        "id": 58,
+        "title": "Client sync",
+        "date": "2026-05-21",
+        "start_time": "10:00",
+        "end_time": "11:00",
+        "repeats": null
+      },
+      {
+        "id": 59,
+        "title": "Team lunch",
+        "date": "2026-05-21",
+        "start_time": "12:30",
+        "end_time": "13:30",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Call mom at 7pm tonight.",
+    "output": {
+      "id": 60,
+      "title": "Call mom",
+      "date": "2026-05-20",
+      "start_time": "19:00",
+      "end_time": "20:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Tech talk at 4 PM PST tomorrow.",
+    "output": {
+      "id": 61,
+      "title": "Tech talk",
+      "date": "2026-05-21",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Meditation session daily at 10pm.",
+    "output": {
+      "id": 63,
+      "title": "Meditation session",
+      "date": "2026-05-20",
+      "start_time": "22:00",
+      "end_time": "23:00",
+      "repeats": "daily"
+    }
+  },
+  {
+    "input": "Urgent bug triage mtg at 4:15.",
+    "output": {
+      "id": 64,
+      "title": "Bug triage mtg",
+      "date": "2026-05-20",
+      "start_time": "16:15",
+      "end_time": "17:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Can we block out 2 hours tomorrow at 1pm for the design sprint?",
+    "output": {
+      "id": 65,
+      "title": "Design sprint",
+      "date": "2026-05-21",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Guitar practice every Sunday afternoon at 4.",
+    "output": {
+      "id": 66,
+      "title": "Guitar practice",
+      "date": "2026-05-24",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "repeats": "weekly"
+    }
+  },
+  {
+    "input": "Car wash tomorrow at noon.",
+    "output": {
+      "id": 67,
+      "title": "Car wash",
+      "date": "2026-05-21",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Drop off packages at the post office Friday morning at 9am.",
+    "output": {
+      "id": 69,
+      "title": "Drop off packages at the post office",
+      "date": "2026-05-22",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Reviewing standard operating procedures tomorrow at 9 and 2.",
+    "output": [
+      {
+        "id": 70,
+        "title": "Reviewing standard operating procedures",
+        "date": "2026-05-21",
+        "start_time": "09:00",
+        "end_time": "10:00",
+        "repeats": null
+      },
+      {
+        "id": 71,
+        "title": "Reviewing standard operating procedures",
+        "date": "2026-05-21",
+        "start_time": "14:00",
+        "end_time": "15:00",
+        "repeats": null
+      }
+    ]
+  },
+  {
+    "input": "Flight check-in tomorrow evening at 7:45.",
+    "output": {
+      "id": 72,
+      "title": "Flight check-in",
+      "date": "2026-05-21",
+      "start_time": "19:45",
+      "end_time": "20:45",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Brunch with family Sunday at 11:30.",
+    "output": {
+      "id": 76,
+      "title": "Brunch with family",
+      "date": "2026-05-24",
+      "start_time": "11:30",
+      "end_time": "12:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Read business book chapters weekdays at 9pm.",
+    "output": {
+      "id": 77,
+      "title": "Read business book chapters",
+      "date": "2026-05-20",
+      "start_time": "21:00",
+      "end_time": "22:00",
+      "repeats": "weekdays"
+    }
+  },
+  {
+    "input": "All-hands company sync next Tuesday at 1pm EST.",
+    "output": {
+      "id": 78,
+      "title": "All-hands company sync",
+      "date": "2026-05-26",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "hair cut appointment day after tomorrow at 10 am",
+    "output": {
+      "id": 79,
+      "title": "Hair cut appointment",
+      "date": "2026-05-22",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Submit final project grades Friday by 5pm.",
+    "output": {
+      "id": 80,
+      "title": "Submit final project grades",
+      "date": "2026-05-22",
+      "start_time": "17:00",
+      "end_time": "18:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "Review performance metrics daily at 4:30pm.",
+    "output": {
+      "id": 82,
+      "title": "Review performance metrics",
+      "date": "2026-05-20",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "repeats": "daily"
+    }
+  }
+]

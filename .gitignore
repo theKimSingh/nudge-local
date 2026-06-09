@@ -15,3 +15,6 @@ opt350m_event_extractor/
 opt350m_event_extractor1/
 
 .env
+
+my_lora_adapter/
+results/
