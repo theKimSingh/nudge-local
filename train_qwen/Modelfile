@@ -1,8 +1,20 @@
+# 1. Base model
 FROM qwen3.5:0.8b
 
+# 2. Path to your converted GGUF adapter file
+ADAPTER ./qwen_fused.gguf
 
-ADAPTER ./my_lora_adapter
+# 3. Set the System prompt
+SYSTEM "Extract JSON."
 
-# Lower temperature forces deterministic, non-creative, rule-following tokens
-PARAMETER temperature 0.0
-PARAMETER top_p 0.1
+# 4. Enforce Qwen's ChatML template structure
+TEMPLATE """{{ if .System }}<|im_start|>system
+{{ .System }}<|im_end|>
+{{ end }}{{ if .Prompt }}<|im_start|>user
+{{ .Prompt }}<|im_end|>
+{{ end }}<|im_start|>assistant
+{{ .Response }}<|im_end|>"""
+
+# Stop tokens to prevent the model from generating infinitely
+PARAMETER stop "<|im_start|>"
+PARAMETER stop "<|im_end|>"

@@ -1,0 +1,35 @@
+[
+  {
+    "input": "CURRENT EVENTS: {201: Morning Run, 202: Triage, 203: Standup, 204: Tech Talk, 205: Coffee Break, 206: Code Review, 207: Client Call, 208: Architecture Sync, 209: Team Lunch, 210: Deep Work, 211: Mentorship Session, 212: Design Critique, 213: Product Alignment, 214: Break, 215: Budget Session, 216: Security Audit, 217: Admin Sync, 218: Wrap Up, 219: Gym Session, 220: Dinner Date} | COMMAND: move Security Audit to 15:30",
+    "output": {
+      "id": 216,
+      "title": "Security Audit",
+      "date": "2026-06-10",
+      "start_time": "15:30",
+      "end_time": "16:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {301: Planning, 302: Email Clear, 303: Team Sync, 304: Content Strategy, 305: Quick Break, 306: Growth Review, 307: Technical Sync, 308: PR Review, 309: Lunch, 310: Onboarding, 311: Research, 312: UI Polish, 313: Partner Sync, 314: Infrastructure Check, 315: Executive Briefing, 316: 1:1 Manager, 317: Data Analysis, 318: Focus Block, 319: Marketing Standup, 320: Vendor Call, 321: Walk Dog, 322: Postmortem, 323: Legal Review, 324: Sales Pitch, 325: Feedback Loop, 326: Roadmap Alignment, 327: Stretch Break, 328: Backlog Grooming, 329: Sync with Eden, 330: Cooking Class} | COMMAND: shift Executive Briefing to 9:15 AM",
+    "output": {
+      "id": 315,
+      "title": "Executive Briefing",
+      "date": "2026-06-10",
+      "start_time": "09:15",
+      "end_time": "10:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {401: Meditate, 402: Check-in, 403: Inbox Zero, 404: Sprint Planning, 405: Coffee Chat, 406: Code Refactor, 407: API Design, 408: Cloud Migration Sync, 409: Documentation, 410: Team Retro, 411: Lunch Break, 412: Client Onboarding, 413: Metric Review, 414: Standup, 415: 1:1 Peer, 416: HR Catch-up, 417: Design Alignment, 418: Brainstorming, 419: Feature Kickoff, 420: QA Validation, 421: Short Walk, 422: Strategy Workshop, 423: Budget Review, 424: Release Check, 425: Analytics Deep Dive, 426: Support Triage, 427: Ops Alignment, 428: Content Audit, 429: Partner Pitch, 430: Career Growth Discussion, 431: Wrap up, 432: Commute, 433: Gym, 434: Laundry, 435: Reading, 436: Family Call, 437: Dinner, 438: Planning Next Day, 439: Stretching, 440: Sleep Prep} | COMMAND: push Cloud Migration Sync to 2 PM",
+    "output": {
+      "id": 408,
+      "title": "Cloud Migration Sync",
+      "date": "2026-06-10",
+      "start_time": "14:00",
+      "end_time": "15:00",
+      "repeats": null
+    }
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "input": "CURRENT EVENTS: {1: lunch, 2: dinner} | COMMAND: move lunch to 12 pm",
+    "output": {
+      "id": 1,
+      "title": "lunch",
+      "date": "2026-06-10",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {101: Standup, 102: Focus Time} | COMMAND: shift Standup to 9:30 AM",
+    "output": {
+      "id": 101,
+      "title": "Standup",
+      "date": "2026-06-10",
+      "start_time": "09:30",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {55: Gym Session, 56: Work} | COMMAND: can we reschedule Gym Session to 7 AM?",
+    "output": {
+      "id": 55,
+      "title": "Gym Session",
+      "date": "2026-06-10",
+      "start_time": "07:00",
+      "end_time": "08:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {301: Client Call, 302: Wrap up} | COMMAND: push Client Call to 4 PM",
+    "output": {
+      "id": 301,
+      "title": "Client Call",
+      "date": "2026-06-10",
+      "start_time": "16:00",
+      "end_time": "17:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {12: Team Sync} | COMMAND: change Team Sync to start at 11:15 AM",
+    "output": {
+      "id": 12,
+      "title": "Team Sync",
+      "date": "2026-06-10",
+      "start_time": "11:15",
+      "end_time": "12:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {401: Coffee Chat, 402: Board Meeting} | COMMAND: move Coffee Chat to 3:30 PM",
+    "output": {
+      "id": 401,
+      "title": "Coffee Chat",
+      "date": "2026-06-10",
+      "start_time": "15:30",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {88: 1:1 with Manager} | COMMAND: reschedule 1:1 with Manager to 2 PM",
+    "output": {
+      "id": 88,
+      "title": "1:1 with Manager",
+      "date": "2026-06-10",
+      "start_time": "14:00",
+      "end_time": "14:45",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {15: Marketing Review, 16: Lunch} | COMMAND: delay Marketing Review until 1:30 PM",
+    "output": {
+      "id": 15,
+      "title": "Marketing Review",
+      "date": "2026-06-10",
+      "start_time": "13:30",
+      "end_time": "14:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {204: Doctor Appointment} | COMMAND: shift Doctor Appointment to early morning at 8 AM",
+    "output": {
+      "id": 204,
+      "title": "Doctor Appointment",
+      "date": "2026-06-10",
+      "start_time": "08:00",
+      "end_time": "09:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {71: Code Review, 72: Design Alignment} | COMMAND: let's do Code Review at 10 AM instead",
+    "output": {
+      "id": 71,
+      "title": "Code Review",
+      "date": "2026-06-10",
+      "start_time": "10:00",
+      "end_time": "11:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {501: Project Kickoff} | COMMAND: move Project Kickoff to 13:00",
+    "output": {
+      "id": 501,
+      "title": "Project Kickoff",
+      "date": "2026-06-10",
+      "start_time": "13:00",
+      "end_time": "14:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {9: Dentist, 10: Dinner with family} | COMMAND: move Dentist to 15:00",
+    "output": {
+      "id": 9,
+      "title": "Dentist",
+      "date": "2026-06-10",
+      "start_time": "15:00",
+      "end_time": "16:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {60: Strategy Workshop} | COMMAND: push Strategy Workshop to late afternoon at 5 PM",
+    "output": {
+      "id": 60,
+      "title": "Strategy Workshop",
+      "date": "2026-06-10",
+      "start_time": "17:00",
+      "end_time": "19:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {33: Budget Planning} | COMMAND: can we change Budget Planning to 11 AM?",
+    "output": {
+      "id": 33,
+      "title": "Budget Planning",
+      "date": "2026-06-10",
+      "start_time": "11:00",
+      "end_time": "12:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {22: Product Demo, 23: Retro} | COMMAND: move Product Demo to 14:15",
+    "output": {
+      "id": 22,
+      "title": "Product Demo",
+      "date": "2026-06-10",
+      "start_time": "14:15",
+      "end_time": "15:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {804: Interview Candidate} | COMMAND: shift Interview Candidate to 16:30",
+    "output": {
+      "id": 804,
+      "title": "Interview Candidate",
+      "date": "2026-06-10",
+      "start_time": "16:30",
+      "end_time": "17:30",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {14: Brainstorming} | COMMAND: let's move Brainstorming to 10:30 AM",
+    "output": {
+      "id": 14,
+      "title": "Brainstorming",
+      "date": "2026-06-10",
+      "start_time": "10:30",
+      "end_time": "12:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {92: HR Onboarding} | COMMAND: reschedule HR Onboarding to 9 AM",
+    "output": {
+      "id": 92,
+      "title": "HR Onboarding",
+      "date": "2026-06-10",
+      "start_time": "09:00",
+      "end_time": "10:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {410: Yoga Class} | COMMAND: move Yoga Class to 18:15",
+    "output": {
+      "id": 410,
+      "title": "Yoga Class",
+      "date": "2026-06-10",
+      "start_time": "18:15",
+      "end_time": "19:15",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {3: Team Dinner} | COMMAND: change Team Dinner to start at 20:00",
+    "output": {
+      "id": 3,
+      "title": "Team Dinner",
+      "date": "2026-06-10",
+      "start_time": "20:00",
+      "end_time": "22:00",
+      "repeats": null
+    }
+  },
+  {
+    "input": "CURRENT EVENTS: {50: Mentorship Session} | COMMAND: shift Mentorship Session to 13:45",
+    "output": {
+      "id": 50,
+      "title": "Mentorship Session",
+      "date": "2026-06-10",
+      "start_time": "13:45",
+      "end_time": "14:45",
+      "repeats": null
+    }
+  }
+]
